@@ -21,7 +21,7 @@
 				<div class="col-md-6 col-sm-6">
 					<h4>TODOS OS</h4>
 					<h2>PRODUTOS PARTICIPANTES</h2>
-					<a href="">CONFIRA A LISTA</a>
+					<a data-toggle="modal" data-target="#myModal2">CONFIRA A LISTA</a>
 				</div><!-- md-6 -->
 			</div><!-- row -->
 		</div><!-- container -->

@@ -363,6 +363,28 @@ ul.nav>li>a:hover {
     margin-top: 60px;
 }
 
+.produtos-md {
+    margin-top: 60px;
+}
+.produtos-md .item {
+    background: #fff;
+    -webkit-box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.5);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.produtos-md .item img {
+    margin: 0 auto;
+    display: block;
+}
+.produtos-md h4 {
+    font-size: 20px;
+    color: #480a00;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     .navbar-default {
