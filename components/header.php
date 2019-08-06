@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Base</title>
+    <title>Café Evolutto</title>
 
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
@@ -27,15 +27,25 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo-vanielly.png" alt="Logo" /></a>
                     </div><!-- .navbar-header -->
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a class="perfil" href="#perfil">PERFIL</a></li>
-                            <li><a class="consultoria" href="#consultoria">CONSULTORIA</a></li>
-                            <li><a class="area" href="#area">ÁREA DO CLIENTE</a></li>
-                            <li><a class="contato" href="#contato">CONTATO</a></li>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">COMO PARTICIPAR</a></li>
+                            <li><a href="">PRÊMIOS</a></li>
+                            <li><a href="">PRODUTOS</a></li>
+                            <li><a href="">GANHADORES</a></li>
+                            <li><a href="">REGULAMENTO</a></li>
+                            <li><a href="">DÚVIDAS</a></li>
+                            <li><a href="">CONTATO</a></li>
+                            <li class="input-cpf">
+                                <form action="">
+                                    <label for="CPF">CPF</label>
+                                    <input type="text" class="cpf form-control">
+                                    <button>OK</button>
+                                </form>
+                            </li>
                         </ul><!-- .nav -->
                     </div><!-- .navbar-collapse -->
                 </div><!-- container -->

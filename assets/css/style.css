@@ -25,16 +25,20 @@ body {
     width: 100%;
 }
 
+ul.nav,
+.navbar-default,
+.navbar-header .navbar-brand,
+#bs-example-navbar-collapse-1 {
+    height: 75px;
+}
 .navbar-default {
-    background: #ffffff;
-    border-color: transparent;
-    height: 110px;
+    background: transparent;
+    border-color: transparent;    
     border-radius: 0;
     margin-bottom: 0px;
     border: none;
 }
 .navbar-header .navbar-brand {
-    height: 110px;
     display: flex;
     align-items: center;
 }
@@ -42,259 +46,331 @@ body {
     margin: 0;
     padding: 0;
 }
-.logo-branca {
-    display: none!important;
-}
 #bs-example-navbar-collapse-1 {
+    width: 100%;
     float: right;
-    height: 110px;
     padding: 0;
 }
-.navbar-header img {
-    margin-left: 15px;
-}
 ul.nav {
-    height: 110px;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 ul.nav>li>a {
-    font-size: 14px;
-    color: #535353!important;
+    font-size: 16px;
+    color: #6e0f64!important;
     text-transform: uppercase;
     padding: 10px 5px;
 }
 ul.nav>li>a:hover {
     font-weight: 700;
-    color: #eb754b!important;
 }
-
-.vitrine .item img {
-    height: 600px;
-    object-fit: cover;
-}
-
-.vitrine .owl-prev {
-    position: absolute;
-    left: 17%;
-    margin-top: -350px;
-}
-
-.vitrine .owl-prev i:hover {
-    color: #b53a0c;
-}
-
-.vitrine .owl-next {
-    position: absolute;
-    right: 17%;
-    margin-top: -350px;
-}
-
-.vitrine .owl-next i:hover {
-    color: #b53a0c;
-}
-
-.vitrine .fa-angle-left {
-    font-size: 70px;
-    color: #ea6837;
-    text-shadow: 5px 3px 20px #000000;
-}
-
-.vitrine .fa-angle-right {
-    font-size: 70px;
-    color: #ea6837;
-    text-shadow: 5px 3px 20px #000000;
-}
-
-/*SOBRE*/
-.sobre {
-    margin: 100px 0;
-}
-
-.sobre .perfil-foto img {
-    width: 100%;
-}
-
-.sobre .sobre-texto h2, .sobre .sobre-texto h1 {
-    color: #ea6837;
-    margin: 0;
-}
-
-.btn-geral {
-    background-color: #ea6837;
-    padding: 15px 30px;
-    color: #fff;
-    border-radius: 7px;
-}
-
-.btn-geral:hover {
-    background-color: #b53a0c;
-    color: #fff;
-}
-
-.sobre .paragrafo-sobre {
-    margin-bottom: 30px;
-    text-align: justify;
-    padding: 15px 0 0;
-}
-
-.sobre .sobre-texto h1 h2 {
-    margin: 0;
-}
-
-/*DESTAQUE*/
-
-.destaque {
-    display: flex;
-}
-
-.destaque .img-destaque {
-    width: 35%;
-}
-
-.destaque .img-destaque img {
-    height: 450px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.destaque .consultoria-texto {
-    background-color: #ea6837;
-    color: #fff;
-    padding: 20px 20px 70px 80px;
-    text-align: justify;
-    height: 450px;
-    width: 65%;
-}
-
-.destaque .consultoria-texto p {
-    max-width: 700px;
-}
-
-.destaque .consultoria-texto ul {
-    padding: 0;
-    float: left;
-    line-height: 33px;
-    margin: 20px;
-}
-
-.destaque .consultoria-texto .fa {
-    color: #01123a;
-    margin-right: 10px;
-}
-
-.destaque .consultoria-texto .texto-preto {
-    color: #000;
-}
-
-/*ÁREA DO CLIENTE*/
-
-.area-cliente {
-    margin: 90px 0;
-    background-image: url('../images/bg-cliente.jpg');
-    height: 250px;
-    background-size: cover;
+.input-cpf form {
     display: flex;
     align-items: center;
 }
-
-.area-texto {
-    display: flex;
+.input-cpf label {
+    font-size: 12px;
+    color: #6e0f64;
+    margin-top: 5px;
 }
-
-.area-cliente .area-texto {
-    color: #ffffff;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.input-cpf input {
+    border-radius: 5px;
+    margin: 0 5px;
 }
-
-.area-cliente .area-texto h3 {
-    margin-top: 0;
-}
-
-.form-area input {
-    background-color: transparent;
-    height: 49px;
-    width: 215px;
-    border-radius: 7px;
-    border-width: 1px;
-    padding: 10px;
-}
-
-/*FALE CONOSCO*/
-.fale-conosco h2 {
-    text-align: center;
-    color: #ea6837;
-    margin-bottom: 40px;
-}
-
-.fale-conosco .form-group .form-control {
-    height: 50px;
-}
-
-.fale-conosco .form-row {
-    margin-bottom: 30px;
-}
-
-.fale-conosco .btn-geral {
-    float: right;
-}
-
-footer {
-    margin: 60px 0 0;
-    padding: 35px;
-    background-color: #000826;
-    width: 100%;
-}
-
-footer .rodape {
-    display: flex;
-    justify-content: space-between;
-}
-
-footer .rodape .contato {
-    display: flex;
-}
-
-footer .rodape .contato p {
+.input-cpf button {
+    font-size: 12px;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #6e0f64;
+    height: 32px;
 }
 
-footer .rodape .contato .fa {
-    color: #ea6837;
-    margin: 8px;
-    font-size: 20px;
+.vitrine {
+    margin-top: -75px;
+}
+.vitrine img {
+    width: 100%;
 }
 
-footer .rodape .redes {
-    display: flex;
+.passos {
+    padding: 10px 0 40px;
+    background: #800766;
+}
+.passos h1 {
+    margin: 0;
+    text-align: center;
+}
+.passos img.item1 {
+    width: 50%;
+}
+.passos img.item2 {
+    width: 27%;
+    padding-left: 30px;
+}
+.passos a {
+    font-size: 42px;
+    font-weight: bold;
+    color: #800766;
+    background: #fff;
+    padding: 10px 60px;
+    border-radius: 10px;
+    display: table;
+    margin: 20px auto 0;
+}
+.passos a:hover {
+    background: #FFAB02;
 }
 
-footer .rodape .redes .fa {
-    font-size: 25px;
-    color: #000826;
-    background-color: #ea6837;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
+.produtos {
+    padding: 60px 0 0;
+    background: url('../images/bg2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.produtos h1 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+.produtos h4 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 30px 0 0;
+}
+.produtos h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #771390;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.produtos a {
+    font-size: 42px;
+    font-weight: bold;
+    color: #6e0f64;
+    background: #fff;
+    padding: 10px 60px;
+    border-radius: 10px;
+    display: table;
+    margin: 0 auto;
+}
+.produtos a:hover {
+    background: #FFAB02;
+}
+
+.participantes {
+    padding: 60px 0;
+    background: url('../images/bg4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.participantes h4 {
+    font-size: 27px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+.participantes h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #771390;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.participantes a {
+    font-size: 42px;
+    font-weight: bold;
+    color: #6e0f64;
+    background: #fff;
+    padding: 10px 60px;
+    border-radius: 10px;
+    display: table;
+    margin: 0 auto;
+}
+.participantes a:hover {
+    background: #FFAB02;
+}
+
+.itens {
+    padding: 30px 0;
+    background: #800766;
+}
+.menu-footer {
     display: flex;
     justify-content: center;
-    margin-right: 10px;
+    margin: 0;
+}
+.menu-footer li {
+    margin: 0 2px;
+}
+.menu-footer li>a {
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu-footer li>a:hover {
+    font-weight: 400;
+}
+.itens p {
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.redes a {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 0 10px;
+}
+.redes a:hover {
+    background: #FFAB02;
+}
+.redes .fa {
+    font-size: 40px;
+    color: #800766;
+}
+
+.rodape {
+    background: #f5a200;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape img {
+    margin-right: 10px;
+}
+.rodape p {
+    font-size: 15px;
+    color: #590750;
+    margin: 0;
+}
+
+.modal-dialog {
+    width: 95%;
+}
+.modal-content {
+    background: url('../images/bg-modal.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.modal-body {
+    padding: 30px;
+}
+.close {
+    font-size: 66px;
+    color: #6e0f64;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=100);
     opacity: 1;
 }
-
-footer .rodape .redes .fa:hover {
-    opacity: .5;
+.logo {
+    position: absolute;
+    width: 250px;
 }
-
+.conteudo {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.conteudo h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #6e0f64;
+    margin: 0 0 20px;
+}
+.conteudo h2 span {
+    font-weight: 400;
+}
+.conteudo p {
+    font-size: 20px;
+    color: #6e0f64;
+    margin: 0 0 20px;
+}
+.conteudo .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.conteudo .form-group img {
+    margin-right: 10px;
+}
+.conteudo .form-group input {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6e0f64;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #6e0f64;
+    border-radius: 0;
+    padding-left: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.conteudo .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.conteudo .form-group input::-webkit-input-placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6e0f64;
+}
+.conteudo .form-group input:-ms-input-placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6e0f64;
+}
+.conteudo .form-group input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6e0f64;
+}
+.conteudo button {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: #6e0f64;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+    margin: 15px 0 0;
+}
+.conteudo button:hover {
+    background: #FFAB02;
+}
+.modal-body footer {
+    margin-top: 60px;
+}
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {
+    .navbar-default {
+        background: #800766;
+    }
     #bs-example-navbar-collapse-1 {
         float: none;
-        background: #fff;
+        background: #FFC300;
         z-index: 300;
         position: relative;
         min-height: 300px;
@@ -304,11 +380,16 @@ footer .rodape .redes .fa:hover {
         margin: 0 auto;
         top: -30px;
     }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
     .navbar-toggle {
         padding: 15px 15px;
-        margin-top: 30px;
+        margin-top: 15px;
     }
-    
     .navbar-header {
         height: 90px;
     }
@@ -334,115 +415,82 @@ footer .rodape .redes .fa:hover {
     .navbar-brand .logo {
         width: 200px;
     }
-    .vitrine .item img {
-        height: 300px;
+    .logo {
+        position: relative;
+        margin: 0 auto 20px;
     }
-    .vitrine .owl-nav {
-        display: none;
+    .conteudo h2 {
+        font-size: 20px;
+        margin: 0 0 15px;
     }
-    .sobre {
-        margin: 50px 0;
+    .conteudo p {
+        font-size: 16px;
     }
-    .sobre .perfil-foto img {
-        margin-bottom: 20px;
-    }
-    .destaque {
-        flex-direction: column;
-    }
-    .destaque .img-destaque img {
-        height: 300px;
-    }
-    .destaque .img-destaque {
-        width: 100%;
-    }
-    .destaque .consultoria-texto {
-        width: 100%;
-        padding: 5px 25px 5px 10px;
-        height: auto;
-    }
-    .destaque .consultoria-texto ul {
-        line-height: 1.5;
-        margin: 5px;
-    }
-    .area-cliente {
-        flex-direction: column;
-    }
-    .area-cliente {
-        margin: 50px 0;
-        height: 320px;
-        align-items: center;
-    }
-    .area-cliente .area-texto {
-        max-width: 100%;
-        flex-direction: column;
-        padding: 25px;
-    }
-    .area-cliente .area-texto .form-area input {
-        width: 100%;
-        margin: 10px 0;
-    }
-    .area-cliente .area-texto .btn-geral {
-        display: table;
-        width: 100%;
+    .menu-footer {
+        display: block;
         text-align: center;
     }
-    footer .rodape {
+    .redes a {
+        width: 60px;
+        height: 60px;
+    }
+    .rodape {
         display: block;
     }
-    footer .rodape .contato {
+    .rodape img {
+        margin-right: 10px;
+        float: left;
+    }
+    .vitrine {
+        margin: 0;
+    }
+    .passos {
+        padding: 10px 0 30px;
+    }
+    .passos h1 img {
+        width: 90%;
+    }
+    .passos img.item1 {
+        width: 100%;
+    }
+    .passos img.item2 {
+        width: 90%;
+        padding-left: 0;
+        margin: 20px auto 0;
         display: block;
+    }
+    .passos a {
+        font-size: 22px;
+        padding: 10px 30px;
+        margin: 0 auto 0;
+    }
+    .produtos {
+        padding: 30px 0;
+    }
+    .produtos h1 img {
+        width: 100%;
+    }
+    .produtos h2 {
+        font-size: 24px;
+    }
+    .produtos a,
+    .participantes a{
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+    .participantes {
+        padding: 30px 0;
+    }
+    .participantes h2 {
+        font-size: 26px;
+    }
+    .modal-body {
+        padding: 15px;
     }
 }
 @media (min-width: 992px) and (max-width: 1050px) {
-    .destaque .consultoria-texto {
-        padding: 20px 20px 70px 20px;
-    }
-
-    .area-cliente .area-texto {
-        max-width: 100%;
-    }
-    .area-cliente .form-area {
-        margin-right: 10px;
-    }
-
+    
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .destaque .consultoria-texto {
-        padding: 20px 20px 70px 20px;
-        font-size: 12px;
-    }
-
-    .destaque .consultoria-texto ul {
-        line-height: 1.5;
-        margin: 10px;
-    }
-
-    .sobre .sobre-texto {
-        padding: 20px;
-    }
-
-    .area-cliente {
-        margin: 30px 0;
-    }
-
-    .area-cliente .area-texto {
-        padding: 30px;
-        width: 100%;
-    }
-
-    .area-cliente .area-texto .form-area {
-        margin-right: 10px;
-    }
-
-    .area-cliente .area-texto .form-area input {
-        margin: 10px 0;
-        width: 100%;
-    }
-
-    .area-cliente .area-texto .btn-geral {
-        display: table;
-        width: 100%;
-        text-align: center;
-    }
-
+    
 }
