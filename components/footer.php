@@ -147,7 +147,7 @@
         </div>
 
         <!-- Modal Regulamento -->
-        <div class="modal fade in" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block;">
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -158,7 +158,57 @@
                             <h2>Regulamento do Sorteio</h2>
                             <p>Clique abaixo para ver o regulamento dos prêmios instantâneos.</p>
                             <div class="regulamento">
-                                
+                                <a href="">
+                                    <img src="assets/images/icone-impressora.png" alt="">
+                                    <p>REGULAMENTO DO SORTEIO<br />
+                                    Sabor que vale Prêmios - Café Evolutto<br />
+                                    CERTIFICADO DE AUTORIZAÇÃO CAIXA 00000000</p>
+                                </a>
+                            </div><!-- regulamento -->
+                        </div><!-- conteudo -->
+                        <footer>
+                            <div class="itens">
+                                <ul class="menu-footer">
+                                    <li><a href="">REGULAMENTO |</a></li>
+                                    <li><a href="">DÚVIDAS |</a></li>
+                                    <li><a href="">CONTATO</a></li>
+                                </ul>
+                                <p>CENTRAL DE ATENDIMENTO PELO 0800 606 7059<br />SEG À SEX, DAS 09h00 ÀS 18h00</p>
+                                <p>VISITE NOSSAS PÁGINAS</p>
+                                <ul class="redes">
+                                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                </ul><!-- redes -->
+                            </div><!-- itens -->
+                            <div class="rodape">
+                                <img src="assets/images/selo-rodape.png" alt="">
+                                <p>Promoção válida de 15/09/2019 a 15/12/2019 para compras a partir de 15/09/2019. Consulte condições de participação,<br />Certificados de Autorização CAIXA e regulamentos completos em www.promoevolutto.com.br.<br />*Premiação entregue em certificado de ouro. Imagens ilustrativas.</p>
+                            </div><!-- rodape -->
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Duvidas -->
+        <div class="modal fade in" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block;">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    
+                        <img src="assets/images/logo-cafe-evolutto.png" class="logo" alt="">
+                        <div class="conteudo">
+                            <h2>Dúvidas</h2>
+                            <p>Veja as perguntas mais frequentes sobre a promoção.</p>
+                            <div class="regulamento">
+                                <a href="">
+                                    <img src="assets/images/icone-impressora.png" alt="">
+                                    <p>REGULAMENTO DO SORTEIO<br />
+                                    Sabor que vale Prêmios - Café Evolutto<br />
+                                    CERTIFICADO DE AUTORIZAÇÃO CAIXA 00000000</p>
+                                </a>
                             </div><!-- regulamento -->
                         </div><!-- conteudo -->
                         <footer>
