@@ -312,7 +312,8 @@ ul.nav>li>a:hover {
 .conteudo .form-group img {
     margin-right: 10px;
 }
-.conteudo .form-group input {
+.conteudo .form-group input,
+.conteudo .form-group textarea {
     font-size: 20px;
     font-weight: bold;
     color: #6e0f64;
@@ -329,17 +330,20 @@ ul.nav>li>a:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-.conteudo .form-group input::-webkit-input-placeholder {
+.conteudo .form-group input::-webkit-input-placeholder,
+.conteudo .form-group textarea::-webkit-input-placeholder {
     font-size: 20px;
     font-weight: bold;
     color: #6e0f64;
 }
-.conteudo .form-group input:-ms-input-placeholder {
+.conteudo .form-group input:-ms-input-placeholder,
+.conteudo .form-group textarea:-ms-input-placeholder {
     font-size: 20px;
     font-weight: bold;
     color: #6e0f64;
 }
-.conteudo .form-group input::placeholder {
+.conteudo .form-group input::placeholder,
+.conteudo .form-group textarea::placeholder {
     font-size: 20px;
     font-weight: bold;
     color: #6e0f64;
@@ -391,6 +395,85 @@ ul.nav>li>a:hover {
     padding: 15px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+#myModal4 .conteudo {
+    max-width: 650px;
+}
+.panel-default {
+    border-color: transparent;
+    background: transparent;
+}
+.panel-default>.panel-heading {
+    background: transparent;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.panel-title {
+    width: 100%;
+}
+.accordion-toggle.collapsed {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6e0f64;
+    display: block;
+    height: 35px;
+    border-radius: 5px;
+    padding: 14px 15px;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\f105";
+}
+.panel-heading .accordion-toggle:after {
+    font-family: FontAwesome;
+    content: "\f107";
+    float: right;
+    color: #6e0f64;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+.accordion-toggle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6e0f64!important;
+    text-align: center;
+    display: block;
+    height: 35px;
+    border-radius: 5px;
+    padding: 14px 15px;
+}
+
+#myModal5 input {
+    margin-bottom: 30px;
+}
+
+#myModal6 .conteudo {
+    max-width: 650px;
+}
+.ganhadores .item {
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.ganhadores h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6e0f64;
+    margin: 0;
+}
+.ganhadores h4 span {
+    font-weight: 400;
 }
 
 /* --- MOBILE --- */
@@ -516,6 +599,13 @@ ul.nav>li>a:hover {
     }
     .modal-body {
         padding: 15px;
+    }
+    .ganhadores .item {
+        display: block;
+    }
+    .ganhadores h4 {
+        font-size: 18px;
+        margin: 0 0 5px;
     }
 }
 @media (min-width: 992px) and (max-width: 1050px) {

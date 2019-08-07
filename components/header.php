@@ -32,13 +32,13 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a href="">HOME</a></li>
-                            <li><a href="">COMO PARTICIPAR</a></li>
-                            <li><a href="">PRÊMIOS</a></li>
-                            <li><a href="">PRODUTOS</a></li>
-                            <li><a href="">GANHADORES</a></li>
-                            <li><a href="">REGULAMENTO</a></li>
-                            <li><a href="">DÚVIDAS</a></li>
-                            <li><a href="">CONTATO</a></li>
+                            <li><a class="scroll" href="#passos">COMO PARTICIPAR</a></li>
+                            <li><a class="scroll" href="#premios">PRÊMIOS</a></li>
+                            <li><a data-toggle="modal" data-target="#myModal2">PRODUTOS</a></li>
+                            <li><a data-toggle="modal" data-target="#myModal6">GANHADORES</a></li>
+                            <li><a data-toggle="modal" data-target="#myModal3">REGULAMENTO</a></li>
+                            <li><a data-toggle="modal" data-target="#myModal4">DÚVIDAS</a></li>
+                            <li><a data-toggle="modal" data-target="#myModal5">CONTATO</a></li>
                             <li class="input-cpf">
                                 <form action="">
                                     <label for="CPF">CPF</label>
